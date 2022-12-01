@@ -1,3 +1,12 @@
+
+window.onload=function(){
+
+
+document.getElementById("color").addEventListener("click", favColor);
+document.getElementById("place").addEventListener("click", favPlace);
+document.getElementById("ritual").addEventListener("click", favRitual);
+}
+
 function favColor() {
 
 

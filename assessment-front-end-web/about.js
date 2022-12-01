@@ -9,11 +9,11 @@ function handleSubmit(evt) {
 	
 }
 
-
+window.onload=function(){
 let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
-
+}
 function compliment() {
 	alert("Hello there!");
 }
